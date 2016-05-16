@@ -1,0 +1,65 @@
+@import url(https://fonts.googleapis.com/css?family=PT+Serif:400,400italic);
+body {
+  background-color: gray;
+  margin: auto;
+  /*margin-top: 100px;*/
+}
+
+#quoteBox {
+  margin: 10% auto;
+  width: 500px;
+  height: auto;
+  background-color: white;
+  color: blue;
+  
+  border-radius:10px;
+  position:relative;
+}
+
+#quoteBox .quoteSymbol {
+  text-align: justified;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-style:italic;
+  font-size:1.5em;
+  margin-left:30px;
+}
+
+#quoteBox #quoteText{
+  height:auto;
+}
+
+#quoteBox #quoteText #quoteParagraph {
+  text-align: justified;
+  font-family: 'PT Serif', serif;
+  font-weight: 400;
+  font-style:italic;
+  font-size:1.5em;
+  padding-left:40px;
+  padding-right:40px;
+  
+}
+
+#quoteBox #quoteText #quoteAuthor {
+  text-align: right;
+  font-family: Sans-serif;
+  margin-right: 55px;
+  font-size:1.3em;
+  font-style:italic;
+}
+
+#quoteBox #quoteButtons {
+  background-color: green;
+  display:
+}
+
+#btnTwitter {
+  float: left;
+  margin-left: 30px;
+}
+
+#quoteBox #quoteButtons #btnNewQuote {
+  float: right;
+  border-radius: 10px;
+  margin-right: 30px;
+}
